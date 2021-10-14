@@ -1,0 +1,25 @@
+body {
+    overflow-x: hidden;
+}
+
+.formInput {
+    background-color: white;
+    width: 470px;
+    right: 0;
+    height: 100%;
+    transform: translateX(100%);
+    z-index: 999;
+}
+
+.tright {
+    right: 0;
+}
+
+.bpesan {
+    left: -240px;
+}
+
+.formInput.slide {
+    transform: translateX(0);
+    transition: 0.3s;
+}
