@@ -121,11 +121,11 @@ $('#list-kurir').on('click', '.klik', function () {
 })
 
 
-new AutoNumeric('#desa', {
-    currencySymbol: ' €',
-    decimalCharacter: ',',
-    digitGroupSeparator: '.',
-});
+// new AutoNumeric('#desa', {
+//     currencySymbol: ' €',
+//     decimalCharacter: ',',
+//     digitGroupSeparator: '.',
+// });
 // $.ajax({
 //     url: 'https://api.rajaongkir.com/starter/city',
 //     type: 'get',
