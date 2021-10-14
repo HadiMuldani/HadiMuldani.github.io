@@ -71,12 +71,12 @@ https://templatemo.com/tm-559-zay-shop
     </script>
 
     <!---------- PESANAN GOOGLE FORM & Raja ONGKIR -->
-    <div class="formInput pt-2 pb-3 position-absolute shadow">
-        <div class="bg-white px-5 position-relative">
+    <div class="formInput pt-2 pb-3 position-fixed shadow">
+        <div class="Dgradient px-5 position-relative">
 
-            <div class="position-absolute bpesan ">
-                <button class="btn btn-light">
-                    <h4 class="pe-5 muncul">Pesan Sekarang !!!</h4>
+            <div class="position-absolute bpesan">
+                <button class="btn btn-light" style="background-color: red;">
+                    <h4 class="pe-3 muncul text-white">Pesan Sekarang !!!</h4>
                 </button>
             </div>
 
@@ -88,19 +88,19 @@ https://templatemo.com/tm-559-zay-shop
                 <input type="hidden" id="sberat" name="berat">
 
                 <div>
-                    <label for="nama" class="form-label mb-0">Nama :</label>
-                    <input type="text" class="form-control py-0" id="nama" name="nama"
+                    <label for="nama" class="form-label mb-0 fs-6">Nama :</label>
+                    <input type="text" class="form-control py-0 fs-6" id="nama" name="nama"
                         placeholder="Nama LENGKAP penerima">
-                    <div id="emailHelp" class="form-text">Isi dengan LENGKAP supaya anda mudah ditemukan kurir</div>
+                    <div id="emailHelp" class="form-text text-white fs-6">kurir butuh data LENGKAP anda !</div>
                 </div>
 
                 <fieldset>
 
-                    <legend class="mb-0">Alamat :</legend>
+                    <legend class="mb-0 fs-5">Alamat :</legend>
 
                     <div class="ms-4">
                         <div class="my-2">
-                            <select class="form-select py-0" id="sprov" aria-label="Default select example">
+                            <select class="form-select py-0 fs-6" id="sprov" aria-label="Default select example">
                                 <option selected>Province :</option>
                                 <option value="1" data-lokasi="Bali">Bali</option>
                                 <option value="2" data-lokasi="Bangka Belitung">Bangka Belitung</option>
@@ -157,15 +157,16 @@ https://templatemo.com/tm-559-zay-shop
                             <option value="2" data-desa="Ciwidey">Ciwidey</option>
                             <option value="3" data-desa="Cimahi">Cimahi</option>
                         </select> -->
-                            <input type="text" class="form-control py-0" id="desa" name="desa"
+                            <input type="text" class="form-control py-0 fs-6" id="desa" name="desa"
                                 placeholder="Masukan Desa">
                             <!-- <input type="text" class="form-label mb-0" id="desa" name="desa"> -->
                         </div>
 
                         <div class="form-floating">
-                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"
+                            <textarea class="form-control fs-6" placeholder="Leave a comment here" id="floatingTextarea"
                                 name="alamat"></textarea>
-                            <label for="floatingTextarea" style="color: #bdb9b9;">Alamat lengkap (Kp. RT RW / Komplek)
+                            <label for="floatingTextarea" class="fs-6" style="color: #bdb9b9;">Alamat lengkap (Kp. RT RW
+                                / Komplek)
                                 Block</label>
                         </div>
                     </div>
@@ -173,7 +174,7 @@ https://templatemo.com/tm-559-zay-shop
 
                 <fieldset>
 
-                    <legend class="mb-0">Pilih kurir :</legend>
+                    <legend class="mb-0 fs-5">Pilih kurir :</legend>
 
                     <div class="ms-4">
 
@@ -187,7 +188,7 @@ https://templatemo.com/tm-559-zay-shop
                                 <input type="hidden" name="kurir" id="ikurir">
                                 <button class="btn btn-secondary dropdown-toggle wExpedisi" type="button"
                                     id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Pilih kurir
+                                    Pilih kurir :
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" id="list-kurir">
 
@@ -232,9 +233,9 @@ https://templatemo.com/tm-559-zay-shop
                 </div>
 
                 <div>
-                    <label for="email" class="form-label mb-0">Kontak</label>
-                    <input type="email" class="form-control py-0" id="email" name="email" placeholder="Email">
-                    <input type="text" class="form-control py-0 mt-1" id="notelp" name="nomorTelpon"
+                    <label for="email" class="form-label mb-0 fs-6">Kontak</label>
+                    <input type="email" class="form-control py-0 fs-6" id="email" name="email" placeholder="Email">
+                    <input type="text" class="form-control py-0 mt-1 fs-6" id="notelp" name="nomorTelpon"
                         placeholder="Nomor Handphone">
                 </div>
                 <button type="submit" class="btn btn-primary mt-3 btn-kirim">PESAN</button>

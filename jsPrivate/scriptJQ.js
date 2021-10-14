@@ -47,7 +47,8 @@ $('#skota').change('kkota', function () {
     // console.log(wilayah);
     $('#kota').val(nama);
 
-    const kurir = ["jne", "tiki", "pos"];
+    // , "tiki", "pos"
+    const kurir = ["jne"];
     $.each(kurir, function (i, data) {
         $.ajax({
             url: 'https://api.rajaongkir.com/starter/cost',
@@ -70,8 +71,8 @@ $('#skota').change('kkota', function () {
                             $('#list-kurir').append(`
                             <li><a class="dropdown-item klik" data-kur="`+ dKurir.code + `" data-ser="` + dPaket.service + `" data-ha="` + dHarga.etd + `"data-va="` + dHarga.value + `">
                                             <div>
-                                                <span class="fs-3">`+ dKurir.code + `</span>
-                                                <span class="fs-5">-----`+ dPaket.service + `</span>
+                                                <span class="fs-5">`+ dKurir.code + `</span>
+                                                <span class="fs-6">-----`+ dPaket.service + `</span>
                                             </div>
                                             <div>
                                             <span href="#" class="fs-6 lharga">` + dHarga.etd + `</span>

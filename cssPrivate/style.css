@@ -1,14 +1,30 @@
+* {
+    font-size: 15px;
+}
+
 body {
     overflow-x: hidden;
 }
 
 .formInput {
-    background-color: white;
-    width: 470px;
+    /* background-color: white; */
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, red, yellow);
+    width: 440px;
     right: 0;
     height: 100%;
     transform: translateX(100%);
     z-index: 999;
+}
+
+form {
+    font-size: 5px;
+}
+
+.Dgradient {
+    color: white;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, red, yellow);
 }
 
 .tright {
@@ -16,7 +32,8 @@ body {
 }
 
 .bpesan {
-    left: -240px;
+    left: -210px;
+    margin-top: 170px;
 }
 
 .formInput.slide {
