@@ -40,3 +40,32 @@ form {
     transform: translateX(0);
     transition: 0.3s;
 }
+
+@media (max-width: 575.98px) {
+    .formInput {
+        transform: none;
+        right: none;
+        width: 100%;
+        position: static;
+        top: 100%;
+    }
+
+    .bpesan {
+        top: -52px;
+        left: 0;
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .formInput.slide-up {
+        top: 0;
+        transition: 0.3s;
+
+    }
+
+    .close {
+        right: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+}

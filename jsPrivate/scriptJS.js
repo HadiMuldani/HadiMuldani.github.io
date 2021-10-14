@@ -1,10 +1,18 @@
 // untuk slider form
 
 const muncul = document.querySelector('.muncul');
+const tutup = document.querySelector('.close');
 const input = document.querySelector('.formInput');
 
 muncul.addEventListener('click', function () {
     input.classList.toggle('slide');
+})
+
+muncul.addEventListener('click', function () {
+    input.classList.toggle('slide-up');
+})
+tutup.addEventListener('click', function () {
+    input.classList.toggle('slide-up');
 })
 
 
